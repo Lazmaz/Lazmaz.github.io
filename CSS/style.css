@@ -11,18 +11,20 @@ html, body{
     background-color: rgba(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.432), 25);
     background-blend-mode: multiply;
     background-size: cover;
-    padding: 150px;
+    padding: 275px;
 }
 
-#navbar{
-    padding-top: 1px;
+.navbar{
+    padding: 25px;
+    background-color: rgba(56, 32, 192, 0.938);
 }
 
+/*Main Title*/
 .body-title{
-    font-size: 9em;
-    color: rgba(164, 186, 226, 0.863);
-    font-family: fantasy;
-    font-weight: lighter;
+    font-size: 70px;
+    color: rgba(151, 72, 224, 0.719);
+    font-family: sans-serif;
+    font-weight: 250;
     text-align: left;
 }
 
@@ -36,25 +38,80 @@ html, body{
 
 .nav a{
     display: inline-block;
-    color: rgb(209, 192, 195);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 0.5em;
+    transition: color 0.3s ease;
 }
 
 .nav a:hover{
-    background-color: rgba(0, 255, 255, 0.2);
+    color: rgba(48, 174, 224, 0.568);
+    
 }
 
 .main-nav{
-    text-align: center;
+    text-align: end;
     font-size: 1.3em;
     font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
-    font-family: fantasy;
-    padding: 12em;
+    font-family: sans-serif;
+    padding-right: px;
 }
 
 .nav{
+    top: 0;
     position: fixed;
     width: 100%;
+    margin: 0px;
+    text-align: justify;
+}
+
+.main-footer{
+    padding: .25em 0;
+}
+
+.contact-info{
+    text-align: center;
+    margin: 0;
+    color: rgba(0, 17, 255, 0.295);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    margin: 200 500;
+    padding: 0 16em;
+}
+
+.main-foot-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-foot-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.nav-title{
+    text-align: left;
+    color: rgba(222, 229, 238, 0.842);
+    padding-right: 30em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+
+}
+
+.about{
+    text-align: center;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+#about{
+    padding-bottom: 9em;
+    padding: 5em;
 }
