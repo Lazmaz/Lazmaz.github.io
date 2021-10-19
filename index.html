@@ -3,29 +3,36 @@
     <head>
         <title>Ivan's Portfolio</title>
         <link rel="stylesheet" href="CSS\style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body>
+    <body style="background-color: rgba(0, 0, 0, 0.952);">
         <section class="main-header">
+            <!-- navbar -->
             <nav class="navbar nav main-nav">
                 <div>
                      <ul>
                         <li class="nav-title">Ivan's Portfolio</li>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="project.html" target="blank" rel="noopener" >Projects</a></li>
+                        <li><a href="#projects" >Projects</a></li>
                         <li><a href="#Contacts">Contact Info</a></li>
                     </ul>
                 </div>
             </nav>
         </section>
-        <header id="welcome-section" id="home" class="main-header">
-            <h1 class="body-title body-title-large">Welcome to my website!</h1>
+                        <!-- welcome-section -->
+        <header id="welcome-section" class="main-header">
+            <p class="body-title body-title-large" id="home">Welcome<span> To My Website!</span></p>
+            
         </header>
-        <div id="about">
-            <h2 class="about">About</h2>
-            <p>Hei, mitt navn er Ivan og jeg er en elev i klasse 2DEA på Kuben Videregående Skole. Interessene mine er blant annet bygging av PC-er og vedlikehold nesten all små-elektronikk dvs. rutere, arduino osv. </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <!-- about -->
+        <div id="about" class="about-paragraph">
+            <h2 class="about" style="color: whitesmoke;">About Me</h2>
+            <img class="about-image" src="Images\1603068871-PH-EC400ATG_DBK01_SYS02-thb.jpg">
+
+            <p style="color: white;">Hei, mitt navn er Ivan og jeg er en elev i klasse 2DEA på Kuben Videregående Skole. Interessene mine er blant annet bygging av PC-er og vedlikehold nesten all små-elektronikk dvs. Arbeid med rutere, arduino osv.</p> <p style="color: white;"> Fun Fact: Bildet dere ser på siden her er et bildet av kabinettet til PC-en min hjemme </p>
+            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Saepe quis labore dolor quam. 
              Rerum fugit fugiat repudiandae deserunt ea, alias rem aspernatur sit inventore,
              ex voluptatum aut voluptatem officiis necessitatibus impedit ipsa corporis nemo hic!
@@ -42,42 +49,33 @@
                natus nesciunt eaque temporibus voluptate deserunt?
               Magni, perspiciatis! Soluta, officiis beatae? Nobis quia reprehenderit esse, ut quibusdam 
               placeat rem cum! Rem facere, cupiditate dolorum soluta veritatis rerum explicabo ex inventore perferendis
-               maxime magnam eos repellendus corrupti
-                labore fuga aliquid fugiat omnis quos autem ratione, voluptate libero! Exercitationem, unde enim ea corrupti
-                 repudiandae illo non, quia expedita ipsa fugiat iure, eveniet mollitia eaque ad perspiciatis! Nulla sapiente rerum corrupti,
-                 non ipsa at est, odio veniam tempore autem voluptatum itaque, saepe voluptatem soluta dolorem eveniet blanditiis aspernatur reiciendis eum in corporis vero? Possimus adipisci,
-                deserunt neque itaque asperiores, perferendis saepe sapiente dolorem reprehenderit quasi eaque sint modi quos pariatur vitae earum eveniet, ut voluptatum. Rem qui explicabo odit
-                 mollitia et sit unde magnam neque earum iure, non reprehenderit tempore adipisci. Alias accusantium commodi dicta ipsam fuga consequuntur minus quaerat impedit voluptas minima sed dolores, aliquid deleniti. 
-                Qui, quod aliquid.</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloremque, ab ipsam repudiandae facere cumque quo minus quos accusantium suscipit ipsa ratione consequuntur fugit sunt reiciendis veniam totam praesentium!
-                     Temporibus nulla reiciendis dolores ut voluptatibus incidunt ratione iure saepe, blanditiis praesentium sed.
-                      Ea veniam nisi dicta ratione nobis quaerat quas impedit cumque, expedita quibusdam quod obcaecati aliquid 
-                      neque deleniti necessitatibus voluptatibus praesentium exercitationem autem vitae natus sequi dolores ab?
-                       Quas voluptates exercitationem quis voluptatem? Eveniet odit necessitatibus eaque! Neque a, quo repellendus
-                        tempora aperiam voluptatum. Eveniet, modi. Assumenda ad numquam enim aliquid repellendus, explicabo esse
-                         maiores! Accusamus neque praesentium voluptatem ullam ut tenetur, illo vero similique sapiente dolore id
-                          impedit culpa iure placeat iste beatae eum. Ipsam officia iusto porro sed adipisci quaerat dolores dolor
-                        fugiat eius est quod sint itaque, natus ratione iure accusamus pariatur vel debitis. Facere id obcaecati 
-                        voluptatibus iste molestias explicabo rerum ipsum aut rem enim.</p>
+               maxime magnam eos repellendus corrupti.</p>
             
         </div>
+                                <!-- projects -->
+         <h2 class="project-title" style="color: whitesmoke;">Projects</h2>
+        <section id="projects" class="projects" style="color: white;">
+            <p class="projects-paragraph">Her ser du et av mine første prosjekter siden vi starta, det er en simpel krets, hvor vi kobla opp en resistor i serie med en diode. </p>
+          <div class="project-picture">
+              <img src="Images\MicrosoftTeams-image.png" height="500px" width="900px">
+          </div>
+        </section>
+                                    <!-- footer -->
         <footer class="main-footer container main-foot-container">
             <div id="Contacts">
-                <h2 class="contact-info"> Where to find me:</h2>
+                <h2 class="contact-info"> Contact Me:</h2>
             </div>
                 <ul class="footer-nav">
-                    <li>
+                    
                     <a href="https://open.spotify.com/user/wm1a06zgjp8w1avz0rm9f5s0m" target="blank">
-                        <img src="Images\png-clipart-spotify-logo-spotify-computer-icons-podcast-music-apps-miscellaneous-angle-thumbnail.png" alt="SpotifyIcon" height="50px" width="50px"></li>
-                    </a>
-                    <li>
+                        <img src="Images\Spotify_logo_without_text.svg.png" alt="SpotifyIcon" height="50px" width="50px"></a>
+                    
                     <a href="https://www.instagram.com/ivan.nm04/" target="blank">
-                        <img src="Images\1024px-Instagram_icon.png" alt="InstaIcon" height="50px" width="50px"> </li></a>
-                    <li>
+                        <img src="Images\1024px-Instagram_icon.png" alt="InstaIcon" height="50px" width="50px"></a>
+                    
                     <a href="https://github.com/Lazmaz" target="blank">
-                        <img src="Images\255-2558173_github-logo-png-transparent-png.png" alt="GitHubIcon" height="50px" width="50px">
-                    </li></a>
+                        <img src="Images\25231.png" alt="GitHubIcon" height="50px" width="50px">
+                    </a>
                 </ul>
         </footer>
     </body>

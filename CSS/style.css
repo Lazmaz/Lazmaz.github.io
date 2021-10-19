@@ -1,31 +1,36 @@
 html, body{
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 
-/* top-bacground-image */
+/* Welcome section ID */
 #welcome-section{
     top: 0%;
     background-image: url("../Images/sean-foley-kMpbE_-jCeI-unsplash.jpg");
-    background-color: rgba(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.432), 25);
+    background-color: rgba(rgb(0, 0, 0), rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.432), 25);
     background-blend-mode: multiply;
     background-size: cover;
-    padding: 275px;
+    padding: 270px;
+    /*Viewport height and width, vh and vw*/
+    height: 50vh;
+    width: 100vw;
 }
 
 .navbar{
     padding: 25px;
-    background-color: rgba(56, 32, 192, 0.938);
+    background-color: rgba(59, 0, 98, 0.129);
 }
 
-/*Main Title*/
+/*Main Title, "Welcome to my website"*/
 .body-title{
     font-size: 70px;
-    color: rgba(151, 72, 224, 0.719);
-    font-family: sans-serif;
+    color: rgba(195, 62, 224, 0.85);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 250;
     text-align: left;
+    font-weight: normal;
 }
 
 .nav ul{
@@ -41,11 +46,11 @@ html, body{
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 0.5em;
-    transition: color 0.3s ease;
+    transition: color 0.9s ease;
 }
 
 .nav a:hover{
-    color: rgba(48, 174, 224, 0.568);
+    color: rgba(196, 49, 241, 0.959);
     
 }
 
@@ -67,12 +72,13 @@ html, body{
 
 .main-footer{
     padding: .25em 0;
+    
 }
 
 .contact-info{
     text-align: center;
     margin: 0;
-    color: rgba(0, 17, 255, 0.295);
+    color: rgba(212, 215, 255, 0.911);
     font-size: 20px;
     font-family: sans-serif;
 }
@@ -96,7 +102,7 @@ html, body{
 .nav-title{
     text-align: left;
     color: rgba(222, 229, 238, 0.842);
-    padding-right: 30em;
+    padding-right: 22em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
     font-weight: lighter;
@@ -108,10 +114,86 @@ html, body{
     font-size: 45px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-
+    margin-top: 6em;
 }
 
 #about{
     padding-bottom: 9em;
     padding: 5em;
+    justify-content: right;
+}
+
+.project-title{
+    text-align: center;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.project-picture{
+    padding-left: 20px;
+    
+}
+
+.about-paragraph{
+    margin-left: 50em;
+    justify-content: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-bottom: 25em;
+}
+
+.projects-paragraph{
+    margin-bottom: 15em;
+    justify-content: right;
+    margin-left: 50em;
+}
+
+.about-image{
+    float: left;
+    height: 550px;
+    width: 550px;
+    border-radius: 2%;
+    margin-right: 20px;
+    margin-left: -50em;
+}
+
+/*Media Querey */
+@media (max-width:1515px){
+
+
+    .about-paragraph{
+        margin-left: 17em;
+        justify-content: center;
+        margin-bottom: 10em;
+    }
+
+    .about{
+        margin-top: 1em;
+    }
+
+    .body-title{
+        font-size: 50px;
+        margin-left: -5em;
+    }
+
+    .nav-title{
+        font-size: 25px;
+        padding-right: 10em;
+    }
+
+    .nav a{
+        padding: 0.2em;
+        font-size: 18px;
+
+    }
+
+    #welcome-section{
+        height: 3vh;
+        width: 39vw;
+        
+        
+    }
+
+
 }
