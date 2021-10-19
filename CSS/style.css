@@ -5,7 +5,7 @@ html, body{
 }
 
 
-/* Welcome section ID */
+/* Welcome section ID, with background image */
 #welcome-section{
     top: 0%;
     background-image: url("../Images/sean-foley-kMpbE_-jCeI-unsplash.jpg");
@@ -13,7 +13,7 @@ html, body{
     background-blend-mode: multiply;
     background-size: cover;
     padding: 270px;
-    /*Viewport height and width, vh and vw*/
+    /*Viewport height, vh*/
     height: 50vh;
     width: 100vw;
 }
@@ -71,7 +71,10 @@ html, body{
 }
 
 .main-footer{
-    padding: .25em 0;
+    padding: 50em;
+    margin-right: -5em;
+    margin-top: 15em;
+    background-color: rgba(114, 71, 255, 0.557);
     
 }
 
@@ -84,8 +87,8 @@ html, body{
 }
 
 .container{
-    max-width: 900px;
-    margin: 200 500;
+    max-width: 4000px;
+    margin: 500 500px;
     padding: 0 16em;
 }
 
@@ -131,12 +134,16 @@ html, body{
 }
 
 .project-picture{
-    padding-left: 20px;
-    
+    float: right;
+    height:400px;
+    width:725px;
+    border-radius: 2%;
+    margin-right: 2em;
+    margin-top: 1em;
 }
 
 .about-paragraph{
-    margin-left: 50em;
+    margin-left: 40em;
     justify-content: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
@@ -144,9 +151,17 @@ html, body{
 }
 
 .projects-paragraph{
-    margin-bottom: 15em;
+    margin-bottom: 10em;
     justify-content: right;
-    margin-left: 50em;
+    margin-right: 50em;
+    margin-top: 8em;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 16em;
+}
+
+.project-link{
+    margin-left: 16em;
 }
 
 .about-image{
@@ -155,17 +170,26 @@ html, body{
     width: 550px;
     border-radius: 2%;
     margin-right: 20px;
-    margin-left: -50em;
+    margin-top: -40em;
 }
 
 /*Media Querey */
-@media (max-width:1515px){
+@media (max-width:910px){
 
 
     .about-paragraph{
-        margin-left: 17em;
+        margin-left: 27em;
         justify-content: center;
         margin-bottom: 10em;
+        margin-top: -em;
+    }
+
+    .about-image{
+        height: 375px;
+        width: 375px;
+        margin-left: 10em;
+        margin-right: 23em;
+        float: right;
     }
 
     .about{
@@ -189,11 +213,24 @@ html, body{
     }
 
     #welcome-section{
-        height: 3vh;
+        height: 1vh;
         width: 39vw;
         
         
     }
 
+    .project-picture{
+        height: 225px;
+        width: 440px;
+    }
+
+    .projects-paragraph{
+        margin-right: 20em;
+        margin-left: 1px;
+    }
+
+    .project-link{
+        margin-left: -1px;
+    }
 
 }
