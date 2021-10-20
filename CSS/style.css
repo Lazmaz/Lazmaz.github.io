@@ -247,9 +247,9 @@ html{
         margin-left: 29px;
         font-size: 13px;
         margin-top: -1px;
-        padding-right: 
-        
-    }
+         
+    }    
+    
 
     .project-link{
         margin-left: 12px;
@@ -266,6 +266,11 @@ html{
 
     .footer-nav{
         padding-right: -1em;
+        
+    }
+
+    .main-footer{
+        margin-top: 2em;
     }
 
 }
