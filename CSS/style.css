@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     border: 0;
+    overflow-x: hidden;
 }
 
 html{
@@ -23,14 +24,15 @@ html{
 }
 
 .navbar{
-    padding: 25px;
-    background-color: rgba(59, 0, 98, 0.129);
+    padding: 15px;
+    background-color: rgba(98, 0, 0, 0.151);
+    padding-left: -1em;
 }
 
 /*Main Title, "Welcome to my website"*/
 .body-title{
     font-size: 70px;
-    color: rgba(200, 111, 220, 0.802);
+    color: rgba(255, 0, 0, 0.802);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 250;
     margin-left: -3em;
@@ -44,6 +46,8 @@ html{
 
 .nav li{
     display: inline;
+    padding-right: em;
+    margin-left: em;
 }
 
 .nav a{
@@ -52,15 +56,19 @@ html{
     text-decoration: none;
     padding: 0.5em;
     transition: color 0.9s ease;
+    padding-left: -100em;
+    padding-right: em;
+    
+    
 }
 
 .nav a:hover{
-    color: rgba(196, 49, 241, 0.959);
+    color: crimson;
     
 }
 
 .main-nav{
-    text-align: end;
+    
     font-size: 1.3em;
     font-weight: lighter;
     font-family: sans-serif;
@@ -79,7 +87,7 @@ html{
     padding: 50em;
     margin-right: 0em;
     margin-top: 29em;
-    background-color: rgba(114, 71, 255, 0.557);
+    background-color: rgb(199, 0, 0);
     
     
 }
@@ -110,8 +118,8 @@ html{
 
 .nav-title{
     text-align: left;
-    color: rgba(222, 229, 238, 0.842);
-    padding-right: 22em;
+    color: rgba(172, 165, 165, 0.842);
+    padding-right: 18em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
     font-weight: lighter;
@@ -180,8 +188,81 @@ html{
     margin-top: -1em;
 }
 
+.utplassering-title{
+    text-align: center;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 14em;
+}
+
+.utplassering-img1{
+    float:center;
+    height: 700px;
+    padding-left: 10em;
+}
+
+.utplassering-img2{
+    float:center;
+    height: 700px;
+    padding-left: 10em;
+    padding-top: 17em;
+}
+
+.utplassering-img3{
+    float:center;
+    height: 700px;
+    padding-left: 10em;
+    padding-top: 17em;
+}
+
+.utplassering-img4{
+    float:center;
+    height: 700px;
+    padding-left: 10em;
+    padding-top: 17em;
+}
+
+.utplassering-img5{
+    float:center;
+    height: 700px;
+    padding-left: 10em;
+    padding-top: 17em;
+}
+
+#utplassering p{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 22em;
+    padding-left: 22em;
+}
+
+.projects2 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 12em;
+}
+
+.projects2 img{
+    height: 550px;
+    padding-left: 59em;
+    padding-bottom: 1em;
+    padding-top: 0em;
+}
+
+.projects2 p{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 34em;
+    padding-left: 1em;
+    padding-top: 0em;
+}
+
 /*Media Querey */
-@media (max-width:910px){
+@media (max-width:1031px){
 
 
     .about-paragraph{
@@ -273,5 +354,48 @@ html{
         margin-top: 2em;
     }
 
+    .utplassering-img1{
+        height: 400px;
+        padding-left:2em;
+    }
+
+     .utplassering-img2{
+        height: 400px;
+        padding-left:2em;
+    }
+    .utplassering-img3{
+        height: 400px;
+        padding-left:2em;
+    }
+    .utplassering-img4{
+        height: 400px;
+        padding-left:2em;
+    }
+    
+    .utplassering-img5{
+        height: 400px;
+        padding-left:2em;
+    }
+    
+    #utplassering p{
+        font-size: 16px;
+        padding-left:2em;
+        padding-right: 2em;
+    }
+
+    .utplassering-title{
+        padding-top: 5em;
+    }
+
+    .projects2 p{
+        padding-right: 2em;
+        text-align: left;
+    }
+
+    .projects2 img{
+        padding-left: 22em;
+        height: 500px;
+        padding-top: 0em;
+    }
 }
 
